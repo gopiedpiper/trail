@@ -17,3 +17,8 @@ mybatis-plus:
     cache-enabled: false
     map-underscore-to-camel-case: false
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8002/eureka/,http://localhost:8002/eureka/,http://localhost:8003/eureka/
