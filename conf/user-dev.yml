@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: user
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/usert?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: 
+    hikari:
+      auto-commit: true
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: luna.user
+  configuration:
+    use-generated-keys: true
+    cache-enabled: false
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
