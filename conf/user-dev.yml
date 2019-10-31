@@ -28,9 +28,9 @@ management:
     enabled: false
   endpoints:
     web:
-      base-path: /
+      base-path: /actuator
       exposure:
-        include: bus/refresh
+        include: bus-refresh
 
 test:
   auto:
