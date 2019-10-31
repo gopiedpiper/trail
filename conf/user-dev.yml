@@ -8,6 +8,11 @@ spring:
     password: 
     hikari:
       auto-commit: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: admin
+    password: admin
 
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
@@ -25,7 +30,7 @@ management:
     web:
       base-path: /
       exposure:
-        include: refresh
+        include: bus/refresh
 
 test:
   auto:
