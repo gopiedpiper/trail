@@ -24,4 +24,4 @@ management:
 
 test:
   auto:
-    refresh: yes, 88!
+    refresh: yes, 99
