@@ -5,6 +5,7 @@ spring:
 feign:
   hystrix:
     enabled: true
+    
 hystrix:
     command:
         default:
