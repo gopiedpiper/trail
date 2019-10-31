@@ -35,4 +35,4 @@ management:
 
 test:
   auto:
-    refresh: yes, 99
+    refresh: [SUCCESS]
