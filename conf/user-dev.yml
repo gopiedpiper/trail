@@ -18,6 +18,10 @@ mybatis-plus:
     map-underscore-to-camel-case: false
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 
+management:
+  security:
+    enabled: false
+
 test:
   auto:
     refresh: yes, 88!
