@@ -9,8 +9,9 @@ spring:
     hikari:
       auto-commit: true
   rabbitmq:
-    host: localhost
+    host: 127.0.0.1
     port: 5672
+    virtual-host: myrabbit_vhost
     username: admin
     password: admin
 
