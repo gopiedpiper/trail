@@ -6,11 +6,6 @@ spring:
      discovery:
         locator:
          enabled: true
-     routes:
-     - id: user_route
-       uri: lb://user
-       predicates:
-       - Path=/register
 
 feign:
   hystrix:
