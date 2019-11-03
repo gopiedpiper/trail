@@ -11,6 +11,11 @@ spring:
        uri: lb://user
        predicates:
        - Path=/register
+  zipkin:
+    base-url: http://localhost:9051
+  sleuth:
+    sampler:
+      percentage: 1.0
 
 feign:
   hystrix:
