@@ -20,6 +20,10 @@ spring:
     sampler:
       percentage: 1.0
 
+feign:
+  hystrix:
+    enabled: true
+
 mybatis-plus:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: luna.user
